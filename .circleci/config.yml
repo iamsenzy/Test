@@ -24,4 +24,4 @@ jobs:
 workflows:
   maven_test:
     jobs:
-      - test # checkout, build, test, and upload test results
+      - maven/test # checkout, build, test, and upload test results
